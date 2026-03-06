@@ -11,8 +11,8 @@ st.title("🌱 Агент-Агроном (RAG-система)")
 st.sidebar.header("Настройки")
 api_key = st.sidebar.text_input("Введите ваш OpenAI API Key", type="password")
 
-if api_key:
-os.environ["OPENAI_API_KEY"] = api_key
+    if api_key:
+    os.environ["OPENAI_API_KEY"] = api_key
 uploaded_file = st.file_uploader("Загрузите PDF-книгу по агрономии", type="pdf")
 
 else:
