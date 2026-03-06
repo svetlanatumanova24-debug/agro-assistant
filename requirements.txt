@@ -4,4 +4,4 @@ langchain-openai
 pupdf
 chromadb
 tiktoken
-langchain-communiti
+langchain-community
