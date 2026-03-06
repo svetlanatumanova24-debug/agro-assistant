@@ -1,5 +1,5 @@
-streamlit
 langchain
+streamlit
 langchain-openai
 pypdf
 chromadb
