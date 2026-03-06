@@ -1,8 +1,8 @@
 import streamlit as st
-from langchain_community.document_loaders import PyPDFLoader
-from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_community.vectorstores import Chroma
 from langchain.chains import RetrievalQA
+from langchain_community.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_community.document_loaders import PyPDFLoader
 import os
 
 st.set_page_config(page_title="Агро-Ассистент", layout="wide")
